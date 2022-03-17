@@ -1,0 +1,26 @@
+spring:
+  main:
+    allow-circular-references: true
+  data:
+    cassandra:
+      config: 
+      keyspace-name: betterreads
+      username: SCSZIhhiqjsqqwDGTkENdLCz
+      password: RXI+ZdD,rBSjeuI8yYwGbBQ-9XiSFGg-ttXa-+bRRHj+2F+5R3uA4rEWob2MUiM9Mu+gx5htfOhd.xEuqnWY+zb_O.4ENk2oiBLfhCFF209nyxSzG8H6IGFA-4rSiK62
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s # for dev env this is fine.
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+datastax.astra:
+    secure-connection-bundle: secure-connect.zip
+
+  
+
+astra.db:
+    id: e3b55418-d8d6-42e8-9c85-68d4c21849a1-1
+    region: us-east1
+    keyspace: betterreads
+    application.token: AstraCS:SCSZIhhiqjsqqwDGTkENdLCz:908bc959d1632b096ba9069a74641113aec6c1af0f1b5de974adf227a8469de8
+
