@@ -28,6 +28,7 @@ public class DumpreaderApplication {
 	@PostConstruct
 	public void start(){
 
+		// For now we stick with sample, until I update it.
 
 		Author author = new Author();
 		author.setId("1");
